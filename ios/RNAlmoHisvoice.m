@@ -73,7 +73,7 @@ RCT_EXPORT_METHOD(stopRecognize) {
         [self.mHSSpeechRecognizer setAsrParameter:@"16000" forKey:@"sample_rate"];
         
         //set whether or not to show punctuation in recognition results
-        [self.mHSSpeechRecognizer setAsrParameter:@"1" forKey:@"asr_ptt"];
+        [self.mHSSpeechRecognizer setAsrParameter:@"0" forKey:@"asr_ptt"];
     }
 }
 
